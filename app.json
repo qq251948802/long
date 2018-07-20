@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/index",
+    "pages/list/list",
+    "pages/mine/mine",
+    "pages/new/new",
+    "pages/entry/entry"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "龙南の日记",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/index",
+        "iconPath": "img/menu/home-off.png",
+        "selectedIconPath": "img/menu/home-on.png",
+        "text": "首页"
+      },
+      {
+       "pagePath": "pages/list/list",
+       "iconPath": "img/icons/mark.png",
+       "selectedIconPath": "img/icons/markHL.png",
+       "text": "印记"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "img/menu/my-off.png",
+        "selectedIconPath": "img/menu/my-on.png",
+        "text": "个人"
+      }
+    ]
+  }
+}
